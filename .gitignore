@@ -1,0 +1,23 @@
+# Python相关
+__pycache__/
+venv/
+*.pyc
+*.pyo
+*.pyd
+# 数据相关（DVC跟踪，不提交Git）
+data/
+!data.dvc
+# DVC相关
+.dvc/
+.dvcignore
+# Docker相关
+.dockerignore
+Dockerfile.*.bak
+# 日志/缓存
+logs/
+.cache/
+# 环境变量
+.env
+.staging.env
+.prod.env
+EOF
